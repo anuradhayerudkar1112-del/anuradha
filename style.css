@@ -1,0 +1,66 @@
+* {
+    margin: 1;
+    padding: 1;
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+}
+body {
+    background-color: lab(98.75% -0.77 -1.9);
+    color: #1e1d1e;
+}
+
+header {
+    background-color: #1c86e2;
+    color: white;
+    text-align: center;
+    padding: 20px 5px;
+}
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.subtitle {
+    color: #ab3405;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+nav a {
+    color: rgb(27, 9, 188);
+    text-decoration: none;
+    margin: 0 2px;
+    font-size: 15px;
+}
+
+section {
+    padding: 30px 40px;
+}
+section h2 {
+    font-size: 25px;
+    margin-bottom: 5px;
+    border-left: 5px solid #2aaaeb;
+    padding-left: 5px;
+}
+section p, section li {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+ul {
+    margin-left: 5px;
+}
+li {
+    margin-bottom: 5px;
+}
+
+a {
+    color: rgb(17, 117, 239);
+}
+
+footer {
+    background-color: #1986e6;
+    color: rgb(156, 18, 18);
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
